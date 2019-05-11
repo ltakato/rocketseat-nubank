@@ -1,7 +1,7 @@
 import React from 'react';
-import Icon from 'react-native-vector-icons';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import { Container, Top, Logo, Title } from '~/pages/Main/styles';
+import { Container, Top, Logo, Title } from './styles';
 import logo from '~/assets/Nubank_Logo.png';
 
 export default function Header() {
@@ -11,7 +11,7 @@ export default function Header() {
         <Logo source={logo} />
         <Title>Takato</Title>
       </Top>
-      <Icon name="keyboard-arrow-down" />
+      <Icon name="keyboard-arrow-down" size={20} color="#FFF" />
     </Container>
   );
 }
