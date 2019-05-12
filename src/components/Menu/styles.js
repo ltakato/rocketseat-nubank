@@ -3,6 +3,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled(Animated.ScrollView)`
   margin: 0 30px;
+  background-color: none;
 `;
 
 export const Code = styled.View`
